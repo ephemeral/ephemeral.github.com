@@ -1,80 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Mariage de Jennifer et Pierre-Alexandre">
+    <meta name="author" content="Pierre-Alexandre Lacerte">
 
-    <!-- Le styles -->
-    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-    <link href="assets/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <title>Mariage de Jennifer et Pierre-Alexandre</title>
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="assets/bootstrap/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/bootstrap/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/bootstrap/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/bootstrap/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/bootstrap/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Ephemeral</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Le Grand Jour</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Info</a></li>
+              <li><a href="#ceremonie">Cérémonie</a></li>
+              <li><a href="#repas">Repas</a></li>
+              <li><a href="#soiree">Soirée</a></li>
+              <li><a href="#hebergement">Hébergement</a></li>
+              <li><a href="#rsvp">RSVP</a></li>
+              <li><a href="mailto:pierrealexandre.lacerte@gmail.com?Subject=Mariage">Contactez-nous</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>Mariage de Jennifer et Pierre-Alexandre</h1>
+        </div>
+		<p class="lead">Nous célébrerons notre union le <strong>24 mai 2014</strong>, à <strong>16 heures</strong>. La cérémonie et la soirée auront lieu à <strong>Espace Shawinigan</strong>.</p>
+		<p>
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5488.793631309465!2d-72.7617355!3d46.5398366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc64c1d9e96e217%3A0x745ab888792c3704!2sespace+shawinigan!5e0!3m2!1sen!2s!4v1388780911472" width="600" height="450" frameborder="0" style="border:0"></iframe>
+		</p>
+		<p>Merci de <a href="#rsvp">confirmer votre présence</a> le plus tôt possible.</p>
+		<h3 id="ceremonie">Cérémonie</h3>
+		<ul>
+        	<li>Mariage Civil</li>
+        	<li>Tenue rétro suggérée (Années 50)</li>
+		</ul>
+		<h3 id="repas">Repas</h3>
+		<ul>
+			<li>Cocktail dinatoire (5 à 7) suivi d'un souper 3 services.</li>
+			<li>Boissons à volonté.</li>
+		</ul>
+		<h3 id="soiree">Soirée</h3>
+		<p>Soirée dansante et autres divertissements jusqu'à 2h00. Le grand DJ de renommée internationale <strong>Richard Paquin</strong> sera sur place.</p>
+		<h3 id="hebergement">Hébergement</h3>
+		<p>Voici une liste des auberges et campings situés à proximité d'Espace Shawinigan:</p>
+		<ul>
+			<li><a href="http://www.gouverneurshawinigan.com">Auberge Gouverneur Shawinigan</a> <- À 200m d'Espace Shawinigan.</li>
+		    <li>Comfort Inn & Suites Shawinigan.</li>
+		</ul>
+		<h3 id="rsvp">Confirmez Votre Présence</h3>
+		<p>
+		    <iframe src="https://docs.google.com/forms/d/1Yd5HBw6GdfmYPB0u1Q0lingyiXs8uSeKUAxAP6DD2C0/viewform?embedded=true" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</p>
+      </div>
     </div>
 
-    <div class="container">
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">Pierre-Alexandre Lacerte - 2014</p>
+      </div>
+    </div>
 
-      <h1>Bootstrap starter template</h1>
-	  <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
-    
-    </div> <!-- /container -->
 
-    <!-- Le javascript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/bootstrap/js/jquery.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-alert.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-tab.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-popover.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-button.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="assets/bootstrap/js/bootstrap-typeahead.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
